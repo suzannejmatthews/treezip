@@ -1,0 +1,10 @@
+TreeZip 2.0
+
+Phylogenetic trees are tree structures that depict relationships between organisms. Popular analysis techniques often produce large collections of hypothetical trees, which can be expensive to store. This can also make the exchange of such data also difficult. TreeZip compresses phylogenetic trees based on the shared evolutionary relationships. In our experiments, TreeZip has been shown to be very effective, typically compressing a tree file to less than 2% of its original size. When coupled with standard compression methods such as 7zip, TreeZip can compress a file to less than 1% of its original size. 
+
+We have extended our TreeZip algorithm by handling trees with weighted branches. Furthermore, by using the compressed TreeZip file as input, we have designed an extensible decompressor that can extract subcollections of trees, compute majority and strict consensus trees, and merge tree collections using set operations such as union, intersection, and set difference.
+
+For detailed information on how to use TreeZip visit the website: treezip.googlecode.com
+For detailed command usage, compile the TreeZip program and type: 
+./treezip --help
+
