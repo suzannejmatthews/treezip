@@ -276,7 +276,7 @@ bool does_taxa_match(string infile, string mergefile, LabelMap & lm){
   }
     
   if (ntaxa!= ntaxa2){
-    cout << "number of taxa do not match! cannot merge!" << endl;
+    cout << "number of taxa do not match!" << endl;
     return false;
   }
   NUM_TAXA = ntaxa;
@@ -563,7 +563,7 @@ unsigned int validate_merge(string & infile, string & mergefile, LabelMap &lm, u
     //next, populate taxa labels and ensure the taxa match
     bool match = does_taxa_match(infile, mergefile, lm);
     if (!match){
-      //cout << "Taxa do not match! Assuming heterogenous collection..." << endl;
+      cerr << "Taxa do not match! Assuming heterogenous collection..." << endl;
       HETERO = true;    
       lm.clear();
     }
