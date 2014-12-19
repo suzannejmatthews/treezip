@@ -2,7 +2,7 @@
 # Process this file with autoconf to produce a configure script.
 
 AC_PREREQ(2.61)
-AC_INIT([habitat], [1.0], [sjm@cse.tamu.edu])
+AC_INIT([treezip], [3.0], [suzanne.matthews@usma.edu])
 AC_CONFIG_HEADER([config.h])
 AM_INIT_AUTOMAKE
 
@@ -49,5 +49,4 @@ AC_CHECK_FUNCS([floor gettimeofday pow sqrt strchr strtoull])
 
 AC_CONFIG_FILES([Makefile])
 AC_CONFIG_FILES([TreeZip/Makefile])
-AC_CONFIG_FILES([SetOp/Makefile])
 AC_OUTPUT

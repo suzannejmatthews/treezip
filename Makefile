@@ -28,10 +28,10 @@
 # e). make dist from the build directory (may be the same as the source directory)
 #
 
-pkgdatadir = $(datadir)/habitat
-pkgincludedir = $(includedir)/habitat
-pkglibdir = $(libdir)/habitat
-pkglibexecdir = $(libexecdir)/habitat
+pkgdatadir = $(datadir)/treezip
+pkgincludedir = $(includedir)/treezip
+pkglibdir = $(libdir)/treezip
+pkglibexecdir = $(libexecdir)/treezip
 am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd
 install_sh_DATA = $(install_sh) -c -m 644
 install_sh_PROGRAM = $(install_sh) -c
@@ -116,11 +116,11 @@ distuninstallcheck_listfiles = find . -type f -print
 am__distuninstallcheck_listfiles = $(distuninstallcheck_listfiles) \
   | sed 's|^\./|$(prefix)/|' | grep -v '$(infodir)/dir$$'
 distcleancheck_listfiles = find . -type f -print
-ACLOCAL = ${SHELL} /home/sjm/Documents/Research/TAMU/TreeZip/treezip-3.0/missing --run aclocal-1.11
+ACLOCAL = ${SHELL} /home/sjm/Desktop/treezip/missing --run aclocal-1.11
 AMTAR = $${TAR-tar}
-AUTOCONF = ${SHELL} /home/sjm/Documents/Research/TAMU/TreeZip/treezip-3.0/missing --run autoconf
-AUTOHEADER = ${SHELL} /home/sjm/Documents/Research/TAMU/TreeZip/treezip-3.0/missing --run autoheader
-AUTOMAKE = ${SHELL} /home/sjm/Documents/Research/TAMU/TreeZip/treezip-3.0/missing --run automake-1.11
+AUTOCONF = ${SHELL} /home/sjm/Desktop/treezip/missing --run autoconf
+AUTOHEADER = ${SHELL} /home/sjm/Desktop/treezip/missing --run autoheader
+AUTOMAKE = ${SHELL} /home/sjm/Desktop/treezip/missing --run automake-1.11
 AWK = mawk
 CC = gcc
 CCDEPMODE = depmode=gcc3
@@ -148,25 +148,25 @@ LDFLAGS =
 LIBOBJS = 
 LIBS = 
 LTLIBOBJS = 
-MAKEINFO = ${SHELL} /home/sjm/Documents/Research/TAMU/TreeZip/treezip-3.0/missing --run makeinfo
+MAKEINFO = ${SHELL} /home/sjm/Desktop/treezip/missing --run makeinfo
 MKDIR_P = /bin/mkdir -p
 OBJEXT = o
-PACKAGE = habitat
-PACKAGE_BUGREPORT = sjm@cse.tamu.edu
-PACKAGE_NAME = habitat
-PACKAGE_STRING = habitat 1.0
-PACKAGE_TARNAME = habitat
+PACKAGE = treezip
+PACKAGE_BUGREPORT = suzanne.matthews@usma.edu
+PACKAGE_NAME = treezip
+PACKAGE_STRING = treezip 3.0
+PACKAGE_TARNAME = treezip
 PACKAGE_URL = 
-PACKAGE_VERSION = 1.0
+PACKAGE_VERSION = 3.0
 PATH_SEPARATOR = :
 SET_MAKE = 
 SHELL = /bin/bash
 STRIP = 
-VERSION = 1.0
-abs_builddir = /home/sjm/Documents/Research/TAMU/TreeZip/treezip-3.0
-abs_srcdir = /home/sjm/Documents/Research/TAMU/TreeZip/treezip-3.0
-abs_top_builddir = /home/sjm/Documents/Research/TAMU/TreeZip/treezip-3.0
-abs_top_srcdir = /home/sjm/Documents/Research/TAMU/TreeZip/treezip-3.0
+VERSION = 3.0
+abs_builddir = /home/sjm/Desktop/treezip
+abs_srcdir = /home/sjm/Desktop/treezip
+abs_top_builddir = /home/sjm/Desktop/treezip
+abs_top_srcdir = /home/sjm/Desktop/treezip
 ac_ct_CC = gcc
 ac_ct_CXX = g++
 am__include = include
@@ -186,7 +186,7 @@ host_alias =
 htmldir = ${docdir}
 includedir = ${prefix}/include
 infodir = ${datarootdir}/info
-install_sh = ${SHELL} /home/sjm/Documents/Research/TAMU/TreeZip/treezip-3.0/install-sh
+install_sh = ${SHELL} /home/sjm/Desktop/treezip/install-sh
 libdir = ${exec_prefix}/lib
 libexecdir = ${exec_prefix}/libexec
 localedir = ${datarootdir}/locale

@@ -70,25 +70,25 @@
 /* #undef HAVE__BOOL */
 
 /* Name of package */
-#define PACKAGE "habitat"
+#define PACKAGE "treezip"
 
 /* Define to the address where bug reports for this package should be sent. */
-#define PACKAGE_BUGREPORT "sjm@cse.tamu.edu"
+#define PACKAGE_BUGREPORT "suzanne.matthews@usma.edu"
 
 /* Define to the full name of this package. */
-#define PACKAGE_NAME "habitat"
+#define PACKAGE_NAME "treezip"
 
 /* Define to the full name and version of this package. */
-#define PACKAGE_STRING "habitat 1.0"
+#define PACKAGE_STRING "treezip 3.0"
 
 /* Define to the one symbol short name of this package. */
-#define PACKAGE_TARNAME "habitat"
+#define PACKAGE_TARNAME "treezip"
 
 /* Define to the home page for this package. */
 #define PACKAGE_URL ""
 
 /* Define to the version of this package. */
-#define PACKAGE_VERSION "1.0"
+#define PACKAGE_VERSION "3.0"
 
 /* Define to 1 if you have the ANSI C header files. */
 #define STDC_HEADERS 1
@@ -100,7 +100,7 @@
 /* #undef TM_IN_SYS_TIME */
 
 /* Version number of package */
-#define VERSION "1.0"
+#define VERSION "3.0"
 
 /* Define for Solaris 2.5.1 so the uint32_t typedef from <sys/synch.h>,
    <pthread.h>, or <semaphore.h> is not used. If the typedef were allowed, the
