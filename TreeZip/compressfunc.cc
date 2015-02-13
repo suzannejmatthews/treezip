@@ -36,6 +36,7 @@ along with TreeZip.  If not, see <http://www.gnu.org/licenses/>.
 #include <limits>
 #include <iomanip>
 #include <sstream>
+#include <unistd.h>
 #include "RandomLib/Random.hpp"
 
 #include "label-map.hh"

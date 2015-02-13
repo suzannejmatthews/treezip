@@ -4,6 +4,7 @@
 #include <algorithm>
 #include <vector>
 #include <sstream>
+#include <unistd.h>
 #include "nexus_compress.hh" 
 #include "compressfunc.h" 
 

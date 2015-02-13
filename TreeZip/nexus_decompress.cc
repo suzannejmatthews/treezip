@@ -3,6 +3,7 @@
 #include <sstream>
 #include <vector>
 #include <cstdlib>
+#include <unistd.h>
 #include "nexus_decompress.hh"
 #include "compressfunc.h"
 
