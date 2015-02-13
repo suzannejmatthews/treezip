@@ -28,10 +28,10 @@
 # e). make dist from the build directory (may be the same as the source directory)
 #
 
-pkgdatadir = $(datadir)/habitat
-pkgincludedir = $(includedir)/habitat
-pkglibdir = $(libdir)/habitat
-pkglibexecdir = $(libexecdir)/habitat
+pkgdatadir = $(datadir)/treezip
+pkgincludedir = $(includedir)/treezip
+pkglibdir = $(libdir)/treezip
+pkglibexecdir = $(libexecdir)/treezip
 am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd
 install_sh_DATA = $(install_sh) -c -m 644
 install_sh_PROGRAM = $(install_sh) -c
@@ -121,7 +121,7 @@ AMTAR = $${TAR-tar}
 AUTOCONF = ${SHELL} /home/sjm/Documents/Research/TAMU/TreeZip/treezip-3.0/missing --run autoconf
 AUTOHEADER = ${SHELL} /home/sjm/Documents/Research/TAMU/TreeZip/treezip-3.0/missing --run autoheader
 AUTOMAKE = ${SHELL} /home/sjm/Documents/Research/TAMU/TreeZip/treezip-3.0/missing --run automake-1.11
-AWK = mawk
+AWK = gawk
 CC = gcc
 CCDEPMODE = depmode=gcc3
 CFLAGS = 
@@ -151,18 +151,18 @@ LTLIBOBJS =
 MAKEINFO = ${SHELL} /home/sjm/Documents/Research/TAMU/TreeZip/treezip-3.0/missing --run makeinfo
 MKDIR_P = /bin/mkdir -p
 OBJEXT = o
-PACKAGE = habitat
-PACKAGE_BUGREPORT = sjm@cse.tamu.edu
-PACKAGE_NAME = habitat
-PACKAGE_STRING = habitat 1.0
-PACKAGE_TARNAME = habitat
+PACKAGE = treezip
+PACKAGE_BUGREPORT = suzanne.matthews@usma.edu
+PACKAGE_NAME = treezip
+PACKAGE_STRING = treezip 3.0
+PACKAGE_TARNAME = treezip
 PACKAGE_URL = 
-PACKAGE_VERSION = 1.0
+PACKAGE_VERSION = 3.0
 PATH_SEPARATOR = :
 SET_MAKE = 
 SHELL = /bin/bash
 STRIP = 
-VERSION = 1.0
+VERSION = 3.0
 abs_builddir = /home/sjm/Documents/Research/TAMU/TreeZip/treezip-3.0
 abs_srcdir = /home/sjm/Documents/Research/TAMU/TreeZip/treezip-3.0
 abs_top_builddir = /home/sjm/Documents/Research/TAMU/TreeZip/treezip-3.0
