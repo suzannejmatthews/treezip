@@ -9,6 +9,6 @@ TreeZip's previous home was: treezip.googlecode.com. Please visit that page for 
 For detailed command usage, compile the TreeZip program and type: 
 ./treezip --help
 
-If you use TreeZip 3.0, please cite our paper (to appear):
+If you use TreeZip 3.0, please cite our paper:
 
 Matthews, SJ. Heterogeneous Compression of Large Collections of Evolutionary Trees. IEEE/ACM Transactions on Computational Biology and Bioinformatics:Special Issues on Software and Databases, to appear. November 2014. DOI: 10.1109/TCBB.2014.2366756 
